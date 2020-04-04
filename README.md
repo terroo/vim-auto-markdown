@@ -13,7 +13,7 @@ Plugin 'terroo/vim-auto-markdown'
 ```sh
 ```sh
 [cursor here]
-```
+\```
 ```
 + Type: `img<Tab>` and it will auto complete for:
 + Type: `href<Tab>` and it will auto complete for:
