@@ -1,5 +1,5 @@
 # vim-auto-markdown
-Auto complete fo Vim
+Auto complete for Vim
 
 # Instalation
 Use Vundle:
