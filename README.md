@@ -9,6 +9,7 @@ Plugin 'terroo/vim-auto-markdown'
 ```
 # Use
 ## The character `|` shows the position that the cursor will be after command followed by TAB.
+> Works only on `.md`, `.markdown`, `.mdown`, `.mkdn`, `.md`, `.mkd`, `.mdwn`, `.mdtxt`, `.mdtext`, `.text `and `.Rmd ` files.
 
 + Type: `code<Tab>` and it will auto complete for:
 ```sh
