@@ -12,7 +12,6 @@ Plugin 'terroo/vim-auto-markdown'
 
 + Type: `code<Tab>` and it will auto complete for:
 + Type: `img<Tab>` and it will auto complete for:
-+ Type: `<Tab>` and it will auto complete for:
 + Type: `href<Tab>` and it will auto complete for:
 + Type: `pre<Tab>` and it will auto complete for:
 + Type: `hr<Tab>` and it will auto complete for:
