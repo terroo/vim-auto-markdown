@@ -15,6 +15,7 @@ Plugin 'terroo/vim-auto-markdown'
 ```sh
 |
 ``` 
+
 ```
 + Type: `img<Tab>` and it will auto complete for:
 ```sh
