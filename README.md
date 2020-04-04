@@ -14,9 +14,10 @@ Plugin 'terroo/vim-auto-markdown'
 ```sh
 ```sh
 |
-``` 
+```^M
 
 ```
+
 + Type: `img<Tab>` and it will auto complete for:
 ```sh
 ![|alt](url)
