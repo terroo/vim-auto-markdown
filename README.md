@@ -14,7 +14,7 @@ Plugin 'terroo/vim-auto-markdown'
 ```sh
 ```sh
 |
-```^M
+`` `
 
 ```
 
