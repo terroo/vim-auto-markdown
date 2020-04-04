@@ -7,6 +7,5 @@ function! TerrooMarkdown()
 	inoremap h1<Tab> # 
 endfunction
 
-:call TerrooMarkdown()
-
+au BufReadPost,BufNewFile *.md,*.markdown :call TerrooMarkdown()
 
