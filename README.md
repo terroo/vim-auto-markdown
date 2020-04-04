@@ -8,7 +8,7 @@ Plugin 'terroo/vim-auto-markdown'
 " :PluginInstall
 ```
 # Use
-## The character `**|**` shows the position that the cursor will be after command followed by TAB.
+## The character `|` shows the position that the cursor will be after command followed by TAB.
 
 + Type: `code<Tab>` and it will auto complete for:
 ```sh
