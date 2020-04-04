@@ -3,14 +3,18 @@ Auto complete fo Vim
 
 # Instalation
 Use Vundle:
-{% highlight viml %}
+```sh
 Plugin 'terroo/vim-auto-markdown'
 " :PluginInstall
-{% endhighlight %}
-
+```
 # Use
 
 + Type: `code<Tab>` and it will auto complete for:
+```sh
+\`\`\`sh
+[cursor here]
+\`\`\`
+```
 + Type: `img<Tab>` and it will auto complete for:
 + Type: `href<Tab>` and it will auto complete for:
 + Type: `pre<Tab>` and it will auto complete for:
