@@ -1,11 +1,11 @@
 function! TerrooMarkdown()
 	inoremap code<Tab> ```sh<CR><CR>```<Left><Left><Left><Up>
-	inoremap code-js<Tab> ```js<CR>console.log('')<CR>```<Left><Left><Left><Up>
-	inoremap code-json<Tab> ```json<CR>{}<CR>```<Left><Left><Left><Up>
-	inoremap code-react<Tab> ```jsx<CR><CR>```<Left><Left><Left><Up>
-	inoremap code-html<Tab> ```html<CR><html></html><CR>```<Left><Left><Left><Up>
-	inoremap code-ruby<Tab> ```ruby<CR>puts ''<CR>```<Left><Left><Left><Up>
-	inoremap code-python<Tab> ```python<CR>print ''<CR>```<Left><Left><Left><Up>
+	inoremap js<Tab> ```js<CR>console.log('')<CR>```<Left><Left><Left><Up>
+	inoremap json<Tab> ```json<CR>{}<CR>```<Left><Left><Left><Up>
+	inoremap react<Tab> ```jsx<CR><CR>```<Left><Left><Left><Up>
+	inoremap html<Tab> ```html<CR><html></html><CR>```<Left><Left><Left><Up>
+	inoremap ruby<Tab> ```ruby<CR>puts ''<CR>```<Left><Left><Left><Up>
+	inoremap python<Tab> ```python<CR>print ''<CR>```<Left><Left><Left><Up>
 	inoremap img<Tab> ![alt](url)<Left><Left><Left><Left><Left><Left><Left><Left><Left>
 	inoremap href<Tab> [name](url)<Left><Left><Left><Left><Left><Left><Left><Left><Left><Left>
 	inoremap pre<Tab> ``<Left>

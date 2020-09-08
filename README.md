@@ -54,7 +54,6 @@ Plug 'terroo/vim-auto-markdown'
 ```sh
 ## |
 ```
-
 + Type: `h3<Tab>` and it will auto complete for:
 ```sh
 ### |
