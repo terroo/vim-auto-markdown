@@ -5,6 +5,8 @@ function! TerrooMarkdown()
 	inoremap pre<Tab> ``<Left>
 	inoremap hr<tab> ---<CR>
 	inoremap h1<Tab> # 
+	inoremap h2<Tab> ## 
+	inoremap h3<Tab> ### 
 endfunction
 
 au BufReadPost,BufNewFile *.md,*.markdown,*.mdown,*.mkdn,*.mkd,*.mdwn,*.mdtxt,*.mdtext,*.text,*.Rmd, :call TerrooMarkdown()
