@@ -51,12 +51,12 @@ Plug 'terroo/vim-auto-markdown'
 # |
 ```
 + Type: `h2<Tab>` and it will auto complete for:
-    ```sh
-    ## |
-    ```
+```sh
+## |
+```
 
 + Type: `h3<Tab>` and it will auto complete for:
-    ```sh
-    ### |
-    ```
+```sh
+### |
+```
 > This README is still in development, but the plugin already works, but there are still improvements.
