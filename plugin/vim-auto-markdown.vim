@@ -5,7 +5,7 @@ function! TerrooMarkdown()
 	inoremap react<Tab> ```jsx<CR><CR>```<Left><Left><Left><Up>
 	inoremap html<Tab> ```html<CR><html></html><CR>```<Left><Left><Left><Up>
 	inoremap ruby<Tab> ```ruby<CR>puts ''<CR>```<Left><Left><Left><Up>
-	inoremap python<Tab> ```python<CR>print ''<CR>```<Left><Left><Left><Up>
+	inoremap python<Tab> ```python<CR>print('')<CR>```<Left><Left><Left><Up>
 	inoremap img<Tab> ![alt](url)<Left><Left><Left><Left><Left><Left><Left><Left><Left>
 	inoremap href<Tab> [name](url)<Left><Left><Left><Left><Left><Left><Left><Left><Left><Left>
 	inoremap pre<Tab> ``<Left>
