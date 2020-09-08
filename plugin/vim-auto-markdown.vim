@@ -13,6 +13,9 @@ function! TerrooMarkdown()
 	inoremap h1<Tab> # 
 	inoremap h2<Tab> ## 
 	inoremap h3<Tab> ### 
+	inoremap h4<Tab> ####  ####<Left><Left><Left><Left><Left>
+	inoremap h5<Tab> #####  #####<Left><Left><Left><Left><Left><Left>
+	inoremap h6<Tab> ######  ######<Left><Left><Left><Left><Left><Left><Left>
 endfunction
 
 au BufReadPost,BufNewFile *.md,*.markdown,*.mdown,*.mkdn,*.mkd,*.mdwn,*.mdtxt,*.mdtext,*.text,*.Rmd, :call TerrooMarkdown()
