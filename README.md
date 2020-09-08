@@ -26,7 +26,32 @@ Plug 'terroo/vim-auto-markdown'
 `` `
 
 ```
-
++ Type `python<Tab>` and it will auto complete for:
+```sh
+```python
+print('|')
+`` `
+```
++ Type `ruby<Tab>` and it will auto complete for:
+```sh
+  ```ruby
+  puts '|'
+  `` `
+```
++ Type `js<Tab>` and it will auto complete for:
+```sh
+```js
+console.log('|')
+`` `
+```
++ Type `json<Tab>` and it will auto complete for:
+```sh
+```json
+{
+  |
+}
+`` `
+```
 + Type: `img<Tab>` and it will auto complete for:
 ```sh
 ![|alt](url)
