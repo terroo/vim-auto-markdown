@@ -44,12 +44,10 @@ print('|')
 console.log('|')
 `` `
 ```
-+ Type `json<Tab>` and it will auto complete for:
++ Type `html<Tab>` and it will auto complete for:
 ```sh
-```json
-{
-  |
-}
+```html
+<html>|</html>
 `` `
 ```
 + Type: `img<Tab>` and it will auto complete for:
