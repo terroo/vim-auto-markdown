@@ -3,8 +3,8 @@ function! TerrooMarkdown()
 	inoremap js<Tab> ```js<CR>console.log('')<CR>```<Up><Right><Right><Right><Right><Right><Right><Right><Right><Right><Right>
 	inoremap json<Tab> ```json<CR>{<CR><CR>}<CR>```<Up><Up><space><space>
 	inoremap react<Tab> ```jsx<CR><CR>```<Up>
-	inoremap html<Tab> ```html<CR><html></html><CR>```<Left><Left><Left><Up>
-	inoremap ruby<Tab> ```ruby<CR>puts ''<CR>```<Left><Left><Left><Up>
+	inoremap html<Tab> ```html<CR><html></html><CR>```<Up><Right><Right><Right>
+	inoremap ruby<Tab> ```ruby<CR>puts ''<CR>```<Up><Right><Right><Right>
 	inoremap python<Tab> ```python<CR>print('')<CR>```<Left><Left><Left><Up>
 	inoremap img<Tab> ![alt](url)<Left><Left><Left><Left><Left><Left><Left><Left><Left>
 	inoremap href<Tab> [name](url)<Left><Left><Left><Left><Left><Left><Left><Left><Left><Left>
