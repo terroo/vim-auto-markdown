@@ -81,4 +81,16 @@ console.log('|')
 ```sh
 ### |
 ```
++ Type: `h4<Tab>` and it will auto complete for:
+```sh
+#### | ####
+```
++ Type `h5<Tab>` and it will auto complete for:
+```sh
+##### | #####
+```
++ Type `h6<Tab>` and it will auto complete for:
+```sh
+###### | ######
+```
 > This README is still in development, but the plugin already works, but there are still improvements.
