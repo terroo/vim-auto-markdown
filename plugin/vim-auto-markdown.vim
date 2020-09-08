@@ -1,6 +1,6 @@
 function! TerrooMarkdown()
 	inoremap code<Tab> ```sh<CR><CR>```<Left><Left><Left><Up>
-	inoremap js<Tab> ```js<CR>console.log('')<CR>```<Left><Left><Left><Up>
+	inoremap js<Tab> ```js<CR>console.log('')<CR>```<Up><Right><Right><Right><Right><Right><Right><Right><Right><Right><Right>
 	inoremap json<Tab> ```json<CR>{}<CR>```<Left><Left><Left><Up>
 	inoremap react<Tab> ```jsx<CR><CR>```<Left><Left><Left><Up>
 	inoremap html<Tab> ```html<CR><html></html><CR>```<Left><Left><Left><Up>
