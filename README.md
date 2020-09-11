@@ -8,7 +8,7 @@ Plugin 'terroo/vim-auto-markdown'
 " :PluginInstall
 ```
 
-Use vim-plug
+Use vim-plug:
 
 ```sh
 Plug 'terroo/vim-auto-markdown'
@@ -42,6 +42,14 @@ print('|')
 ```sh
 ```js
 console.log('|')
+`` `
+```
++ Type `json<Tab>` and it will auto complete for:
+```sh
+```json
+{
+  |
+}
 `` `
 ```
 + Type `html<Tab>` and it will auto complete for:
