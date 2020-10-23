@@ -38,6 +38,18 @@ print('|')
   puts '|'
   `` `
 ```
++ Type `c++<Tab>` and it will auto complete for:
+```sh
+  ```c++
+  |
+  `` `
+```
++ Type `bash<Tab>` and it will auto complete for:
+```sh
+  ```bash
+  |
+  `` `
+```
 + Type `js<Tab>` and it will auto complete for:
 ```sh
 ```js
